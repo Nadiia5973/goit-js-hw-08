@@ -1,0 +1,30 @@
+body {
+  margin: auto;
+}
+
+ul,
+ol {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  padding: 24px 0;
+  justify-content: center;
+}
+
+.gallery-item {
+  display: flex;
+  width: 360px;
+  height: 200px;
+  overflow: hidden;
+}
+
+.gallery-image {
+  width: 100%;
+  height: auto;
+}
